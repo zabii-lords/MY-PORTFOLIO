@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ZABI UR RAHMAN — Full Stack Web Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- AOS for scroll animations (CDN) -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- local stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <div class="brand" aria-hidden="false">
+        <img class="avatar" src="https://i.postimg.cc/SsLgpngR/Whats-App-Image-2025-08-11-at-14-27-50-238d6dd2.jpg" alt="Zabi ur Rahman avatar">
+        <div>
+          <h1>ZABI UR RAHMAN</h1>
+          <p class="tagline">full stack web developer</p>
+        </div>
+      </div>
+
+      <nav class="nav" role="navigation" aria-label="Main navigation">
+        <button id="darkToggle" class="icon-btn" aria-pressed="false" title="Toggle dark mode">🌓</button>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO with particle canvas -->
+    <section class="hero">
+      <canvas id="bgParticles" aria-hidden="true" style="position:absolute;inset:0;z-index:0"></canvas>
+
+      <div class="container hero-grid" style="position:relative;z-index:2">
+        <div class="hero-left" data-aos="fade-up">
+          <h2>Hi, I'm <strong class="name-strong">ZABI UR RAHMAN</strong></h2>
+          <p class="lead">I'm a B.Tech third year student in Computer Science Engineering at LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY. I build responsive, accessible and interactive web pages using HTML, CSS & JavaScript.</p>
+
+          <div class="cta-row">
+            <a class="neon-btn" href="#projects">View Projects</a>
+            <a class="btn-3d" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="quick-stats" aria-hidden="false">
+            <div class="stat" role="region" aria-label="Projects">
+              <div class="stat-num">3+</div>
+              <div class="stat-label muted">Projects</div>
+            </div>
+            <div class="stat" role="region" aria-label="Education">
+              <div class="stat-num">2023–27</div>
+              <div class="stat-label muted">B.Tech (CSE)</div>
+            </div>
+            <div class="stat" role="region" aria-label="Hobby">
+              <div class="stat-num">CRICKET</div>
+              <div class="stat-label muted">Athlete</div>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right" data-aos="fade-left">
+          <div class="profile-card" role="complementary" aria-label="Profile card">
+            <img src="https://i.postimg.cc/SsLgpngR/Whats-App-Image-2025-08-11-at-14-27-50-238d6dd2.jpg" alt="Zabi profile">
+            <h3>ZABI UR RAHMAN</h3>
+            <p class="muted">Full Stack Web Developer</p>
+            <div style="margin-top:10px">
+              <a class="socials" href="https://web.whatsapp.com//wa.me/+91 834166976" target="_blank" rel="noopener">whatsapp</a>
+            </div>
+          </div>
+
+          <div class="slide-box" role="status" aria-live="polite">Available for internships</div>
+        </aside>
+      </div>
+    </section>
+    <!-- Certifications -->
+<section id="certifications" class="section container">
+  <h2 class="section-title" data-aos="fade-up">Certifications</h2>
+  <div class="certifications-grid">
+
+    <article class="cert-card" data-aos="fade-up" data-aos-delay="0"
+      tabindex="0" role="button"
+      aria-label="DBMS course"
+      data-title="HTML & CSS Fundamentals"
+      data-desc="Certified by FreeCodeCamp — Completed an in-depth course covering HTML5 and CSS3."
+      data-tags="FreeCodeCamp • 2024"
+      data-link="https://example.com/cert-html-css.pdf">
+      <div class="cert-icon">📜</div>
+      <h3>HTML & CSS Fundamentals</h3>
+      <p class="muted">Certified by FreeCodeCamp — HTML5 and CSS3 course completion.</p>
+      <span class="cert-date muted">2024</span>
+    </article>
+
+    <article class="cert-card" data-aos="fade-up" data-aos-delay="80"
+      tabindex="0" role="button"
+      aria-label="java programming course"
+      data-title="JavaScript Essentials"
+      data-desc="Certification from SoloLearn — Covered ES6+, DOM manipulation, and events."
+      data-tags="SoloLearn • 2024"
+      data-link="https://example.com/cert-javascript.pdf">
+      <div class="cert-icon">🖥️</div>
+      <h3>JavaScript Essentials</h3>
+      <p class="muted">SoloLearn — JavaScript ES6+, DOM, and events.</p>
+      <span class="cert-date muted">2024</span>
+    </article>
+
+    <article class="cert-card" data-aos="fade-up" data-aos-delay="160"
+      tabindex="0" role="button"
+      aria-label="Open certificate Cloud Computing Basics"
+      data-title="Cloud Computing Basics"
+      data-desc="Certified by AWS Educate — Learned cloud fundamentals and AWS services."
+      data-tags="AWS Educate • 2025"
+      data-link="https://example.com/cert-cloud.pdf">
+      <div class="cert-icon">☁️</div>
+      <h3>Cloud Computing Basics</h3>
+      <p class="muted">AWS Educate — Cloud fundamentals.</p>
+      <span class="cert-date muted">2025</span>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- Projects -->
+    <section id="projects" class="section container">
+      <h2 class="section-title" data-aos="fade-up">Projects</h2>
+      <div class="projects-grid">
+        <article class="project-card" data-aos="fade-up" tabindex="0" role="button" aria-label="Open project URL Shortner details" data-title="URL Shortner" data-desc="A small web app that shortens long URLs and provides copy-to-clipboard functionality. Built with HTML, CSS & JS." data-tags="HTML • CSS • JavaScript">
+          <div class="project-media" style="background:#0b1220">URL Shortner</div>
+          <h3>URL Shortner</h3>
+          <p class="muted">Shortens long links with copy support & link preview.</p>
+          <div class="project-tags">HTML • CSS • JavaScript</div>
+        </article>
+
+        <article class="project-card" data-aos="fade-up" tabindex="0" role="button" aria-label="Open project Anabela Rush details" data-title="Anabela Rush — AI Jump Game" data-desc="Canvas-based jumping game with simple AI opponents, scoring & keyboard controls." data-tags="JavaScript • Canvas • Game Logic">
+          <div class="project-media" style="background:#1b3">Anabela Rush — AI Jump Game</div>
+          <h3>Anabela Rush (AI Jump Game)</h3>
+          <p class="muted">Simple canvas game with score tracking and AI.</p>
+          <div class="project-tags">JavaScript • Canvas • Game Logic</div>
+        </article>
+
+        <article class="project-card" data-aos="fade-up" tabindex="0" role="button" aria-label="Open project Colour Detector details" data-title="Colour Detector" data-desc="Detect pixel color under cursor and show HEX/RGB values — useful for designers." data-tags="HTML • JS • DOM">
+          <div class="project-media" style="background:#3640ff">Colour Detector</div>
+          <h3>Colour Detector</h3>
+          <p class="muted">Read pixel color values with a simple UI.</p>
+          <div class="project-tags">HTML • JS • DOM</div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section container">
+      <h2 class="section-title" data-aos="fade-up">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill" data-aos="fade-right">
+          <h4>Technical</h4>
+          <div class="bar" aria-hidden="true"><i data-value="85"></i></div>
+          <small class="muted">HTML • CSS • JavaScript • Java</small>
+        </div>
+
+        <div class="skill" data-aos="fade-right" data-aos-delay="80">
+          <h4>Soft Skills</h4>
+          <div class="bar" aria-hidden="true"><i data-value="90"></i></div>
+          <small class="muted">Teamwork • Problem Solving • Communication</small>
+        </div>
+
+        <div class="skill" data-aos="fade-right" data-aos-delay="160">
+          <h4>Hobbies</h4>
+          <div class="bar" aria-hidden="true"><i data-value="95"></i></div>
+          <small class="muted">Cricket • Sports</small>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section container">
+      <h2 class="section-title" data-aos="fade-up">About Me</h2>
+      <div class="about-grid">
+        <div data-aos="fade-up">
+          <p>I'm a 3rd year B.Tech (CSE) student at LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY (2023–2027). I enjoy building responsive web applications, focusing on accessibility and smooth user experience.</p>
+          <p class="muted">Location: Bandlaguda, Chandrayangutta, Hyderabad, Telangana</p>
+        </div>
+
+        <div data-aos="fade-left">
+          <div class="flip-card" aria-hidden="false">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">Education</div>
+              <div class="flip-card-back">B.Tech (CSE) — LORDS INSTITUTE OF ENGINEERING AND TECHNOLOGY</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+      <h2 class="section-title" data-aos="fade-up">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-card" data-aos="fade-right">
+          <h3>Get in touch</h3>
+          <p>Email: <a href="mailto:zabiurrahman158@gmail.com">zabiurrahman158@gmail.com</a></p>
+          <p>Phone: <a href="tel:+918341669767">+91 83416 69767</a></p>
+
+          <div style="display:flex;gap:10px;margin-top:12px">
+            <a class="border-animate" id="downloadCv" href="#" onclick="event.preventDefault(); alert('Download demo not implemented')">Download CV</a>
+            <a class="neon-btn" href="#contact">Message</a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm" data-aos="fade-left" aria-label="Contact form">
+          <label class="sr-only" for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+
+          <label class="sr-only" for="email">Your email</label>
+          <input id="email" name="email" type="email" placeholder="Your email" required>
+
+          <label class="sr-only" for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Zabi ur Rahman — Built with ❤</p>
+    </div>
+  </footer>
+
+  <!-- UI elements -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <div id="modalBackdrop" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal" role="document" tabindex="0">
+      <button id="modalClose" style="float:right;background:transparent;border:none;font-size:22px;cursor:pointer">✕</button>
+      <h3 id="modalTitle">Project</h3>
+      <img id="modalImage" alt="Preview" />
+      <p id="modalDesc" class="muted">Description</p>
+      <p id="modalTags" class="muted" style="font-weight:700"></p>
+      <div style="margin-top:12px"><a id="modalLive" class="neon-btn" href="#" target="_blank" rel="noopener">View Live</a></div>
+    </div>
+  </div>
+
+  <!-- scripts -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
